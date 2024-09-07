@@ -1,4 +1,4 @@
-/* Importa a fonte Chakra Petch do Google Fonts */
+/* Importa a fonte Quicksand do Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
 /* Estiliza o corpo da página */
@@ -8,9 +8,6 @@
     --color-3:#7FD3ED; /*(Azul claro aquático)*/
     --color-4:#D1E8FF; /*(Azul claro suave)*/
     --color-5:#FFFFFF; /*(Branco puro para destaque)*/
-    
-
-
 }
 body {
     font-family: "Quicksand", sans-serif; /* Define a fonte padrão */
@@ -26,7 +23,7 @@ body {
 
 /* Estiliza os títulos h1 */
 h1 {
-    font-size: 2.5rem; /* Tamanho da fonte */
+    font-size: 5rem; /* Tamanho da fonte */
     color: var(--color-2); /* Cor do texto */
     text-align: center; /* Alinha o texto ao centro */
     letter-spacing: 0.4rem; /* Espaçamento entre letras */
@@ -44,7 +41,7 @@ section {
 section input {
     width: 30rem; /* Largura dos inputs */
     border: none; /* Remove a borda padrão */
-    padding: 1rem; /* Espaçamento interno */
+    padding: 1.5rem; /* Espaçamento interno */
     border-radius: 1.5rem; /* Borda arredondada */
     margin-bottom: 1rem; /* Espaçamento abaixo dos inputs */
     color:var(--color-2); /* Cor do texto */
@@ -58,8 +55,8 @@ section button {
     border: none; /* Remove a borda padrão */
     border-radius: 1.5rem; /* Borda arredondada */
     background-color:var(--color-3); /* Cor de fundo do botão */
-    color:var(--color-2); /* Cor do texto do botão */
-    font-size: 1rem; /* Tamanho da fonte */
+    color:var(--color-1); /* Cor do texto do botão */
+    font-size: 2rem; /* Tamanho da fonte */
     cursor: pointer; /* Muda o cursor para indicar que é clicável */
 }
 
@@ -115,4 +112,30 @@ footer {
     position: absolute; /* Posiciona o rodapé */
     bottom: 0; /* Alinha ao fundo da página */
     font-size: 1rem; /* Tamanho da fonte */
+}
+.icones{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    height: 50%;
+    gap: 15px;
+    transition: transform 0.3s ease-in-out;
+}
+.icones_tea{
+     transition: transform 0.3s ease-in-out; 
+}
+.icones_tea:hover {
+    transform: scale(1.1);
+}
+.icones_tdah{
+   transition: transform 0.3s ease-in-out;
+}
+.icones_tdah:hover {
+    transform: scale(1.1);
+}
+.icones_tourette{
+    transition: transform 0.3s ease-in-out;
+}
+.icones_tourette:hover {
+    transform: scale(1.1);  
 }
